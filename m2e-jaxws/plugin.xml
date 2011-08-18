@@ -1,0 +1,9 @@
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.m2e.core.projectConfigurators">
+		<configurator class="com.brandmaker.m2e.jaxws.JaxwsImportProjectConfigurator"
+		              id   ="com.brandmaker.m2e.jaxws.jaxwsImportConfigurator"
+		              name ="JAX-WS Import Project Configurator" />
+	</extension>
+	<extension point="org.eclipse.m2e.core.lifecycleMappingMetadataSource" />
+</plugin>

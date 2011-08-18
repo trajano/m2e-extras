@@ -1,0 +1,24 @@
+<feature id           ="com.brandmaker.m2e.jaxws.feature"
+         label        ="%featureName"
+         plugin       ="com.brandmaker.m2e.jaxws"
+         provider-name="%providerName"
+         version      ="1.0.0">
+
+	<description>
+		%description
+	</description>
+
+	<copyright>
+		%copyright
+	</copyright>
+
+	<license url="%licenseURL">
+		%license
+	</license>
+   
+	<plugin download-size="0"
+	        id           ="com.brandmaker.m2e.jaxws"
+	        install-size ="0"
+	        unpack       ="false"
+	        version      ="0.0.0" />
+</feature>

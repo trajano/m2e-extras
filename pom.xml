@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.brandmaker.m2e</groupId>
+	<artifactId>m2e-extras</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>m2e-extras-site</module>
+		<module>m2e-jaxws</module>
+		<module>m2e-jaxws-feature</module>
+		<module>m2e-jaxws-tests</module>
+		<module>m2e-torque</module>
+		<module>m2e-torque-feature</module>
+		<module>m2e-torque-tests</module>
+	</modules>
+
+	<scm>
+		<connection>scm:git:git://github.com/htfv/m2e-extras.git</connection>
+		<developerConnection>scm:git:git@github.com:htfv/m2e-extras.git</developerConnection>
+		<url>https://github.com/htfv/m2e-extras</url>
+	</scm>
+
+	<properties>
+		<version.tycho>0.12.0</version.tycho>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>helios</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/indigo</url>
+		</repository>
+		<repository>
+			<id>m2e</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/technology/m2e/releases/1.0</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-surefire-plugin</artifactId>
+					<version>${version.tycho}</version>
+					<configuration>
+						<useUIHarness>true</useUIHarness>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${version.tycho}</version>
+				<configuration>
+					<!--ignoreTychoRepositories>true</ignoreTychoRepositories-->
+					<resolver>p2</resolver>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${version.tycho}</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

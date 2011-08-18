@@ -1,0 +1,7 @@
+<!DOCTYPE database SYSTEM "http://db.apache.org/torque/dtd/database_3_3.dtd">
+<database name="TestDB" package="com.brandmaker.m2e.torque.entities">
+	<table name="User">
+		<column name="id"   type="INTEGER" javaType="object" primaryKey="true" />
+		<column name="name" type="VARCHAR" javaType="object" />
+	</table>
+</database>
