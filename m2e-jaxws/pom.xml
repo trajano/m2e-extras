@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.brandmaker.m2e</groupId>
 		<artifactId>m2e-extras</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<artifactId>m2e-jaxws</artifactId>
