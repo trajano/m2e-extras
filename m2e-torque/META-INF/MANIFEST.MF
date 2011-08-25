@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: m2e Connector for Torque
+Bundle-Name: m2e Connector for torque-maven-plugin
 Bundle-SymbolicName: com.brandmaker.m2e.torque;singleton:=true
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-Vendor: BrandMaker GmbH

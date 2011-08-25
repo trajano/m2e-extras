@@ -17,6 +17,27 @@
 		<module>m2e-torque-tests</module>
 	</modules>
 
+	<licenses>
+		<license>
+			<name>Eclipse Public License v1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<contributors>
+		<contributor>
+			<name>Aliaksei Lahachou</name>
+			<email>aliaksei.lahachou@brandmaker.com</email>
+			<organization>BrandMaker GmbH</organization>
+			<organizationUrl>http://www.brandmaker.com</organizationUrl>
+			<roles>
+				<role>Initial Contributor</role>
+			</roles>
+			<timezone>+1</timezone>
+		</contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/htfv/m2e-extras.git</connection>
 		<developerConnection>scm:git:git@github.com:htfv/m2e-extras.git</developerConnection>
