@@ -4,7 +4,7 @@ Bundle-Name: Tests Plug-in
 Bundle-SymbolicName: com.brandmaker.m2e.torque.tests
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-Vendor: BrandMaker GmbH
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.1
 Require-Bundle: com.brandmaker.m2e.torque;bundle-version="1.0.1",
  org.eclipse.core.resources;bundle-version="3.4.2",
  org.eclipse.core.runtime;bundle-version="3.4.0",
