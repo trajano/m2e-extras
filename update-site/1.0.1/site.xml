@@ -1,0 +1,12 @@
+<site>
+	<description url="http://brandmaker.com/m2e-extras">
+		m2e Extras
+	</description>
+	<feature url="features/com.brandmaker.m2e.jaxws.feature_1.0.1.jar" id="com.brandmaker.m2e.jaxws.feature" version="1.0.1">
+		<category name="m2e-extras" />
+	</feature>
+	<feature url="features/com.brandmaker.m2e.torque.feature_1.0.1.jar" id="com.brandmaker.m2e.torque.feature" version="1.0.1">
+		<category name="m2e-extras" />
+	</feature>
+	<category-def name="m2e-extras" label="m2e Extras" />
+</site>
